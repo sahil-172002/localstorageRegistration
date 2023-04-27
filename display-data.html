@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title>Student Registration Form</title>
+  </head>
+
+  <body>
+    <main class="mt-5 pt-3" style="background-color: rgb(190, 245, 227); border: double 3px black; padding: 20px; margin: 20px;">
+      <div class="text-center" style="text-align: center;">
+        <i class="bi bi-emoji-smile fs-1 text-primary"></i>
+      </div>
+      <div class="container">
+        <div class="h1 my-4 text-center border" style="text-align: center;" >Employee Data</div>
+        <div class="row my-5">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-uppercase">
+                <label style="font: 20px;">Employee Name: </label>
+                <span id="firstName">Maheh</span>
+                <span id="lastName">Bodhgire</span>
+              </h5>
+              <small class="text-uppercase fw-bold text-muted">
+                Personal Information
+              </small>
+              <hr />
+              <p class="card-text fs-6 fw-bold">
+                <i class="bi bi-gender-ambiguous me-2"></i>
+                Gender -<span id="gender" class="text-uppercase">Male</span>
+              </p>
+              <small class="text-uppercase fw-bold text-muted">
+                Contact Information
+              </small>
+              <hr />
+              <p class="card-text fs-6 fw-bold">
+                <i class="bi bi-envelope me-2"></i>
+                Email -<span id="email">Email@gmail.com</span>
+              </p>
+              <p class="card-text fs-6 fw-bold">
+                <i class="bi bi-telephone me-2"></i>
+                Mobile No -<span id="contactNo">9878743434</span>
+              </p>
+
+              <small class="text-uppercase fw-bold text-muted">
+                College Information
+              </small>
+              <hr />
+              <p class="card-text fs-6 fw-bold">
+                <i class="bi bi-book me-2"></i>
+                Branch -<span id="branch">IT</span>
+              </p>
+              <p class="card-text fs-6 fw-bold">
+                <i class="bi bi-calendar-date me-2"></i>
+                Registration Date -<span id="registrationDate">Male</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="display-data.js"></script>
+  </body>
+</html>
